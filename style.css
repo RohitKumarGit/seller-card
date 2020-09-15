@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 1rem;
+  overflow: hidden; }
+
+.header {
+  font-weight: 800;
+  font-size: 2rem; }
+
+.u-m {
+  margin: .5rem 1rem; }
+
+.head {
+  font-weight: 800 !important;
+  margin-bottom: .3rem;
+  color: #0f3460 !important;
+  font-size: 1rem; }
+  .head-s {
+    font-weight: 500 !important; }
+
+.msin {
+  height: 90px !important;
+  border-radius: 7px;
+  width: 100px !important;
+  background-size: cover;
+  margin: 0 .3rem;
+  background-position: center; }
+
+.m-2 {
+  background: url("/Capture.PNG"); }
+
+.m-1 {
+  background: url("/Rectangle 594.png"); }
+
+.images {
+  padding: 1rem;
+  height: 100px;
+  transform: translateY(-0.9rem); }
+
+.card-box {
+  border-radius: 4px; }
+  .card-box-b {
+    background-color: #EAEEFF;
+    height: 84vh;
+    position: relative; }
+  .card-box_announcement {
+    background-color: #FFFFFF;
+    font-weight: 100 !important;
+    padding: .5rem;
+    font-size: .8rem;
+    margin: 0 1rem;
+    border-radius: 10px;
+    color: #363636;
+    margin-top: 1rem; }
+  .card-box_about {
+    color: #2d2e2e;
+    font-weight: 200;
+    padding: 0 1rem; }
+  .card-box_bg {
+    background-image: url("/qki1qyby5ha41.png");
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    margin-top: 1rem;
+    position: relative; }
+    .card-box_bg-logo {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      bottom: -3rem;
+      left: 1rem; }
+      .card-box_bg-logo-i {
+        background-image: url("/farhan-shaikh-9TYryqt3wLk-unsplash.jpg");
+        height: 5rem;
+        width: 5rem;
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+        border: 3px solid white; }
+      .card-box_bg-logo-t {
+        font-size: 1.3rem;
+        transform: translateY(0.5rem) translateX(0.5rem); }
+  .card-box_about {
+    margin-top: 3.4rem;
+    font-weight: 100;
+    font-size: .9rem; }
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  align-items: center; }
+
+.btn {
+  padding: .6rem 2rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.light {
+  background: white;
+  border: 1.5px solid #1851E4;
+  color: #1851E4; }
+
+.dark {
+  background-color: #1851E4;
+  color: white; }
